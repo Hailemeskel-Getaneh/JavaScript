@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listeners</title>
+</head>
+<body>
+    <style>
+        div{
+            border: 1px rgb(24, 28, 90) ;
+            margin: auto;
+            margin:130px 0px 0px 200px;
+            background-color: rgb(233, 230, 227);
+            padding: 10px;
+            width: 300px;
+            height: relative;
+            border-radius: 12px;
+            font-size: 19px;
+            font: bold;
+        }
+        #myBtn, #secondBtn{
+        font-size: 20px;
+        background-color: rgb(5, 143, 143);
+        color: white;
+        border-radius: 8px;
+        border: .3px;
+        padding: 5px;
+        margin-left: 60px;
+        }
+
+        input{
+            padding: 5px;
+            border-radius: 10px;
+        }
+    </style>
+    <div>
+        <label for="name" >Full Name:</label>
+        <input type="text" id="name" class="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email"><br><br>
+        <input type="button" value="Submit" id="myBtn">
+
+      
+        
+    </div>
+    <br><br>
+    <button id="secondBtn">Click Me</button>
+
+    <button id="clickMeBtn">Get Started</button>
+
+    <button onclick="this.innerHTML = Date()">This time is </button>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

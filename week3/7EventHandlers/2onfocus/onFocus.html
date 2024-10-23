@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- 
+The onfocus event occurs when an element gains focus.
+ It’s useful for actions that need to happen when a user starts interacting with a form field
+  -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The onfocus event Handler</title>
+</head>
+<body>
+    <input type="text" id="username" onfocus="highlightedField()" onblur="validateUserName()">
+
+    <script>
+    
+
+        function highlightedField(){
+
+             document.getElementById('username').style.backgroundColor = 'lightblue';
+            userName.style.backgroundColor = 'white';
+
+        }
+
+        function validateUserName(){
+            if(document.getElementById('username').value.length < 5){
+                alert('The length of username should be greater than 5 letters long')
+            }
+        }
+
+    </script>
+    
+</body>
+</html>

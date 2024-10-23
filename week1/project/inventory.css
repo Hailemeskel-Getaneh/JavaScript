@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.whole{
+    width: 550px;
+    height: relative;
+    margin: auto;
+    background-color: rgb(187, 206, 197);
+    padding: 20px;
+    border-radius: 5px 5px 5px 10px;
+}
+
+#addBtn, #removeBtn{
+    font-size: 19px;
+    color: white;
+    background-color: rgb(24, 182, 182);
+    border-radius: 5px;
+    padding: 5px;
+    margin-left:8px;
+    border: 0.5px;
+}
+#addInventory{
+    padding: 10px;
+    border: rgb(209, 4, 100) 1px;
+    border-radius: 5px;
+    margin-bottom:10px ;
+}
+
+input{
+    padding: 8px;
+    margin: 6px;
+    border-radius: 10px;
+}

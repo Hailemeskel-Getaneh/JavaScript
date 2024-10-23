@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is the obejct display</title>
+</head>
+<body>
+
+    <p id="myParagraph"> </p>;
+
+    <script>
+        let person = {
+            name:'Martemuz Zemedkun',
+            age : 20,
+            department : 'Medicine'
+        }
+
+        let myLove = JSON.stringify(person);
+        document.getElementById('myParagraph').innerHTML = myLove;
+    </script>
+    
+</body>
+</html>

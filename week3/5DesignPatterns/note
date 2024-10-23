@@ -1,0 +1,56 @@
+JavaScript Design Patterns
+1. Introduction to Design Patterns
+What are Design Patterns?
+
+Design patterns are reusable solutions to common problems in software design.
+They provide a template or blueprint for solving particular problems in a way that has been proven to work.
+Categories of Design Patterns:
+
+In JavaScript, design patterns can be categorized into several types, and while there is no strict number, here are some of the most common patterns that developers use:
+
+1. Creational Patterns
+These patterns deal with object creation mechanisms, trying to create objects in a manner suitable to the situation.
+
+=> Singleton: Ensures a class has only one instance and provides a global point of access to it.
+Factory Method: Defines an interface for creating objects but allows subclasses to alter the type of objects that will be created.
+=> Abstract Factory: Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+=> Builder: Allows for the step-by-step creation of complex objects using a clear and concise method.
+Prototype: Creates new objects by copying an existing object, known as the prototype.
+
+2. Structural Patterns
+These patterns deal with object composition or the organization of classes and objects.
+
+=> Adapter: Allows incompatible interfaces to work together by wrapping an object with an interface expected by the clients.
+=> Decorator: Adds behavior or responsibilities to objects dynamically.
+Facade: Provides a simplified interface to a complex system.
+=> Proxy: Controls access to an object, potentially adding functionality.
+Composite: Composes objects into tree-like structures to represent part-whole hierarchies.
+Flyweight: Minimizes memory usage by sharing as much data as possible with similar objects.
+
+
+3. Behavioral Patterns
+These patterns deal with object interaction, responsibility, and communication between objects.
+
+=> Observer: Allows a subject to notify observers about changes in state, often used in event-driven programming.
+Strategy: Defines a family of algorithms, encapsulates each one, and makes them interchangeable.
+=> Command: Encapsulates a request as an object, allowing for parameterization of clients with queues, requests, and operations.
+Chain of Responsibility: Passes a request along a chain of handlers until it finds one that can handle the request.
+=> Mediator: Defines an object that encapsulates how a set of objects interact.
+Memento: Captures and restores an object's internal state.
+=> State: Allows an object to alter its behavior when its internal state changes.
+Template Method: Defines the skeleton of an algorithm, allowing subclasses to implement specific steps.
+
+
+4. Other Patterns
+While the above are the most common categories, there are additional patterns that don’t fit neatly into these categories.
+
+Module Pattern: Encapsulates a group of related functions, allowing you to create private and public members (often used to create a "namespace").
+Revealing Module Pattern: Similar to the Module pattern, but it keeps the method definitions inside the closure and reveals them as public methods.
+Mixin: Allows objects to borrow functionality from other objects without using inheritance.
+Prototype Pattern: Uses existing objects as blueprints to create new objects.
+Summary
+Creational Patterns: 5
+Structural Patterns: 6
+Behavioral Patterns: 9
+Other Patterns: Several additional patterns, like Module and Mixin, which are particularly relevant in JavaScript.
+In total, you can say there are around 20-25 key design patterns that JavaScript developers may encounter or use, depending on the complexity and needs of the project.

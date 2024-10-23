@@ -1,0 +1,5 @@
+what is the difference between Event listeners and Event handler ?
+
+  => Event Handlers: Directly assigned to an element using attributes like onblur, onfocus, etc.
+
+=>   Event Listeners: Added using addEventListener, offering more flexibility and control.

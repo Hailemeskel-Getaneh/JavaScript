@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logical operators</title>
+</head>
+<body>
+   
+
+
+<label for="age">Age :</label>
+ <div type="text" id="age"> </div>
+ <br><br>
+ <label for="sex">Sex :</label>
+ <div type="text" id="sex"></div>
+<br>
+<br>
+ <script>
+    //logical operators are operators that are use to control statements with the other control statements
+
+
+let age = window.prompt("Enter you age: "); // returns a string
+age = Number(age);
+let sex = window.prompt("Enter you sex :");
+
+document.getElementById('age').innerHTML = age;
+document.getElementById('sex').innerHTML = sex ;
+
+if(isNaN(age)){
+a = 'please enter a valid number';
+}
+
+else if(age < 10 && sex.toLowerCase() =='male'){
+a = "you are a small boy";
+}
+else if( age < 10 && sex.toLowerCase() == 'female'){
+document.write("you are a small girl")
+}
+
+else{
+document.write("your are not below 10")
+document.getElementById('age').innerHTML = age;
+document.getElementById('sex').innerHTML = sex ;
+
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=2, initial-scale=1.0">
+    <title>the change image </title>
+</head>
+<body>
+    <style>
+        button{
+            color: white;
+            background-color: rgb(9, 104, 104);
+            font: 700;
+            font-size:19px;
+            padding: 5px;
+            border-radius: 8px;
+        }
+    </style>
+
+    <button onclick="document.getElementById('demo').src = 'pic_bulboff.png'; alert('Light turned off')">
+        Turn Off
+    </button>
+    <image id="demo" src="pic_bulboff.png"  width="200px" height="300px"></image>
+    <button onclick="document.getElementById('demo').src = 'pic_bulbon.png' ; alert('Light turned on') "> Turn On</button>
+    
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!-- 
+The onblur event occurs when an element loses focus.
+ It's commonly used with form inputs to trigger validation or other actions when the user moves away from the field.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Onblur Event Handler</title>
+</head>
+<body>
+    <input type="text" id="username" onblur="FormValidatorFunction()">
+
+    <script>
+       
+       function FormValidatorFunction(){
+            
+            const userName = document.getElementById('username').value
+            if(userName.length < 5){
+                alert('The length ofyour user name should be greater than 5')
+            }
+        }
+    </script>
+    
+</body>
+</html>

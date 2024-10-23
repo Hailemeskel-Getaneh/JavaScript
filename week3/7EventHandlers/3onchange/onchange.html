@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<!-- The onchage event handler happepens when the value of an element changes and the user moves
+    away from the field( when it loes focus) .
+    => this is helpful validating an input after the user has finished his or her input.
+    -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the onchange event handler</title>
+</head>
+<body>
+
+
+    <form action="">
+
+        <input type="text" id="username" placeholder="Eneter your Name">
+        <input type="text" id="age" onchange="validateInput()" placeholder="age">
+        <br><br>
+        <button type="submit"> Submit</button>
+
+    </form>
+
+    <script>
+
+        function validateInput(){
+            let age = document.getElementById('age');
+            if(age.value < 18){
+                alert("You must be at least 18 to fil this form")
+            }
+        }
+// The following is additional to show the submit event listener
+
+        document.querySelector('form').addEventListener('submit', function(event){
+            event.preventDefault()
+            let name = document.getElementById('username');
+            let age =  document.getElementById('age');
+
+            console.log(`Name: ${name.value} , Age: ${age.value}`)
+            name.value= '';
+            age.value = '';
+        })
+    </script>
+
+
+    
+</body>
+</html>
