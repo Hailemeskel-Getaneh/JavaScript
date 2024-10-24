@@ -11,7 +11,9 @@
 
         // 2. using the new key word
         let person = new Object({name:'Abel Ayalew', age : 30, isStudent: false, job:'Doctor'})
+        let girl = new Object({name:'Martiye', age:18, department:'Medicine'})
         // console.log(person.name)
+        console.log(`I love ${girl.name} too much`)
 
         // 3. Using the constructor function
 

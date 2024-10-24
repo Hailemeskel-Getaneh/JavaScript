@@ -26,5 +26,5 @@ async function displayUsers() {
         console.error(error)
         
     }
-};
+};  
 displayUsers() // this function waits 3 sec until the getUser function get excuted
