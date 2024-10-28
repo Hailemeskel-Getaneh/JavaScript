@@ -3,8 +3,8 @@ console.clear()
 let students = ['Hailemeskel',"Marti" , "Elias", "Selamawit", "Hailemariam", "King"]
 let i = 0
 
-for (;i < students.length ; i++){
-    console.log(students[i])
+for(; i<students.length ; i++){
+    console.log(students[i].trim())
 }
 
  i = 0
