@@ -5,6 +5,9 @@ let Number = 2;
 
 
 let string = "This is a string data type";
+let  x = 343;
+console.log(x);
+
 let name = new String('Hailemskel Getaneh')
 
 let isOnline = true;  // this is bolean data type
