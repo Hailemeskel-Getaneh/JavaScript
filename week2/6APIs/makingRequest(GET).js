@@ -14,6 +14,7 @@ Web APIs typically work by sending an HTTP request to a server, which then proce
 
 */
 
+
 //we use fetch API which is the modern for aking request which returns when it resolves request
 
 
