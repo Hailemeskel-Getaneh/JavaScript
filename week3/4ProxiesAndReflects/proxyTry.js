@@ -12,6 +12,7 @@ let handlerObject = {
         return target[property]; // retrieve the property but do not use target.property
     }
 ,
+
     set(target, property, value){
            target[property] = value // update the property but do not use  target.property = value
         return true; //indicating the success

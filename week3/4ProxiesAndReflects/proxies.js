@@ -14,6 +14,7 @@ let myProfile = {
     email:'hailegetaneh1221@gmail.com'
 };
 
+
 // create a handler  object that you can intercept the operations on the target. we will define a 'get' and  a'set' traps
 // to log messages when prperties are accessed and modified
 
