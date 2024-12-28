@@ -10,7 +10,6 @@ let inventoryId = document.getElementById('inventoryId');
 let inventoryQuantity = document.getElementById('inventoryQuantity');
 let inventoryPrice = document.getElementById('inventoryPrice');
 
-
 document.getElementById('addBtn').addEventListener('click', addItem) ;
 
 function print(){
