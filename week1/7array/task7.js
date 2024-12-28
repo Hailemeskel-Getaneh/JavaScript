@@ -22,8 +22,11 @@ let inventory = {};
                 console.log('This id already exists');
                 return ;
             }
-            inventory = {id:id, name: name, quantity:quantity , price:price};
-            inventories.push(inventory);
+            else{
+                inventory = {id:id, name: name, quantity:quantity , price:price};
+                inventories.push(inventory);
+            }
+           
 
         };
 
@@ -34,10 +37,10 @@ let inventory = {};
 // remove an inventory from the inventories list
 
         function removeItem(id){
-            let check = inventories.some((item) => item.id == id)
+            let check = inventories.some((item) => item.id === id)
             if(check){
             inventories.forEach((item, index) =>{
-                if(item.id == id){
+                if(item.id === id){
                 inventories.splice(index, 1 )
                 }
             })
@@ -54,7 +57,7 @@ let inventory = {};
 // update the quantity of inventory from the inventories
 
         function updateQuantity(id, newQuantity){
-            let founded = inventories.find(item => item.id == id)
+            let founded = inventories.find(item => item.id === id)
             if(founded){
                 inventories.forEach((item,index) => {
                     if(item.id == id){
