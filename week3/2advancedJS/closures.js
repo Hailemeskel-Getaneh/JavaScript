@@ -6,6 +6,7 @@ closure is related with the  scope.
 This allows the function to access variables from its outer scope even after the outer function has finished executing.
 
   */
+ 
 
 function outerFunction(){
 
