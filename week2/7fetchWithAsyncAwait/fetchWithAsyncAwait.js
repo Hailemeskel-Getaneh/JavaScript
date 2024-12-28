@@ -12,6 +12,7 @@ async function postData(uri = '', data = {} ){
         console.log(result)
   } 
 
+  
  catch(error) {
     console.log(error)
 
