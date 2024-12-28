@@ -19,12 +19,13 @@ let  emptyValue = null ;// This is the null data type
 let student = {firstName : "Hailemeskel" , secondName: "Getaneh", Id:"DBU1501246"} ;
 let $person = new Object({name: 'Martiye' , email:'marmartiye1221@gmail.com'})
 
-let numbers = [1,2, 3, 4, 5, "Mar", {name:"Abebe", age:23, "isStudent":false}] ; // This is an array
+let numbers = [1,2, 3, 4, 5, "Marti", {name:"Abebe", age:23, "isStudent":false}] ; // This is an array
 let  students = new Array('Hailemskel Getaneh', 'Nigus Tatek', 'Martemuz Zemedkun', 'Demissew Getachew')
 
 // you can use the \ for manythings
 
-console.log('It\'s needs to be patient to be a software Developer')
+console.log('It\'s needs to be patient and dedicated person  to be a software Developer')
+
 console.log('This character 👉 \\ is called backslach')
 
 // you can use \b , \t , \n , \v and others
