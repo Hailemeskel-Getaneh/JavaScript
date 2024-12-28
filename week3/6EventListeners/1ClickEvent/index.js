@@ -16,6 +16,7 @@ console.log('Your message is submitted successfully')
 }
 
 
+
 // additional things on the click event to identify the event type and target
 
 myBtn.addEventListener('click', getData)
