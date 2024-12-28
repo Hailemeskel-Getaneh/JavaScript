@@ -13,7 +13,7 @@ let users = [
 ]
 
 let adults = users.filter(user =>user.age > 18)
-console.log('Adults : ', adults)
+console.log(`Adults : ${adults}`)
 
 // another example
 let children = [];

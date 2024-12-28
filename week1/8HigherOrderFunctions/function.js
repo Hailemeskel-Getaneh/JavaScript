@@ -2,9 +2,9 @@
 // here is an example of higher order that is not built in rather i have created it.
 
 
-function GreetingUser(greetingFunction){
+function GreetingUser(sayHello){
         const user = 'Marti';
-        greetingFunction(user);
+        sayHello(user);
 };
 
 function sayHello(name){
