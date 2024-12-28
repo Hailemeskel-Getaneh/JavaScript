@@ -16,6 +16,7 @@ Fulfilled: The operation was completed successfully.
 Rejected: The operation failed.
 
 */
+
 let myPromise = new Promise((resolve, reject) =>{
     let seccess = true;
 
