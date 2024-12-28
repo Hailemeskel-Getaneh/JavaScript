@@ -1,5 +1,4 @@
-//here are some of the string methods
-
+//here are some of the string metho
 let myName = 'Hailemeskel Getaneh';
 let string  = 'My name is'
 
@@ -35,6 +34,5 @@ let replacedString = myString.replace('java Script ', 'type script')
 
 console.log(replacedString)
 
-
 //
-console.log(myName.includes('Haile'))
+console.log(myName.includes('Haile')) // helps for search functionality
