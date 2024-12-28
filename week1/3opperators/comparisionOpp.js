@@ -3,7 +3,7 @@
 let isEqualTo =(10 == '10');
 let isNotEqualTo = 10!='10' ;
 
-let strictlyEqualTo = 10 === '10';
+let strictlyEqualTo = 10 === '10'; // strict eaqulity is more strong that double equality
 let strictlyNotEqualTo = 10 !=='10';
 
 let isGreater = 10 > 56;
