@@ -13,7 +13,7 @@
  }
 
  // arrow function 
- let greeting = (firstName, secondName) =>{
+ let Greeting = (firstName, secondName) => {
     console.log(`Hello ${firstName} ${secondName}, This is arrow function`)
  }
 
