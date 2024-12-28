@@ -7,6 +7,7 @@ function User(name , email){
     this.email = email
 }
 
+
 // this or the following is  also and objectof function or prototypal object
 User.prototype.login = function (){
     console.log(`User ${this.name} has logged in`)
