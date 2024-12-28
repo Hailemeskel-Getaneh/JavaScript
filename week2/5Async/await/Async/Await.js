@@ -8,6 +8,7 @@ async function fetchData() {
     
 }
 
+
 async function getUser(){
     return new Promise((resolve, reject) =>{
         setTimeout(() =>{
