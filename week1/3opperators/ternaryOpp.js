@@ -22,7 +22,7 @@ console.log(tax); // Outputs the tax amount based on the salary
 let score = 90; // Example salary value
 let sex = 'Female'
 
-let totalMark = sex.toLowerCase() == 'female'
+let totalMark = sex.toLowerCase() === 'female'
     ? (() => score + 5)()  // Immediate invocation of arrow function
     : (() => score + 0)(); // Immediate invocation of arrow function
 
@@ -30,4 +30,4 @@ console.log(totalMark); // Outputs the tax amount based on the score
 
 
 
-// DNONOT FORGET TO CALL THE FUNCTION IMMEDIATLY AFTER THE DECALARATION
+// DONOT FORGET TO CALL THE FUNCTION IMMEDIATLY AFTER THE DECALARATION
