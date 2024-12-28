@@ -5,6 +5,7 @@ sum = a + b;
 product = a * b;
 
 difference = a - b;
+
 quetient = a / b;   // the division operator
 
 remainder = a % b;  // The remainder operators
