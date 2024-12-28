@@ -2,7 +2,11 @@ console.log('Hello. from Udacitu.com');
 console.table(['red', 'green', 'yellow', 'blue'])
 console.dir('let us take something')
 
-try{
+
+//error handling using try catch
+
+try
+{
     console.log(Date())
 }
 catch(error){
@@ -14,4 +18,5 @@ const fahrenheit = celsius * 1.8 + 32/* convert celsius to fahrenheit here */
 
 console.log(fahrenheit);
 
-console.log('HaileMeskel'[5])
+console.log('HaileMeskel'[5]);
+
