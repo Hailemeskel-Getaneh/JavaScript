@@ -1,6 +1,5 @@
 // switchs are also the types of the control statements
 
-
 let data = 5343;
 
 console.log(typeof(data))
