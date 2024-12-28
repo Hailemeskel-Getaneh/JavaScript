@@ -32,5 +32,5 @@ console.log('the for of loop ends here')
 // the for in returns the index of the lists in the array
 
 for ( index in students){
-    console.log(`${index} : ${students[index]}`)
+    console.log(`${index} : ${students[index]} `)
 }
