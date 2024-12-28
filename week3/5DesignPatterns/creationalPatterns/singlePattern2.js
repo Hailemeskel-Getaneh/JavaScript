@@ -15,6 +15,7 @@ class mySingleton{
 
 }
 
+
 const instance1 = new mySingleton();
 const instance2 = new mySingleton();
 
