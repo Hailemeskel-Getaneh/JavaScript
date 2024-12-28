@@ -14,7 +14,6 @@ let campany = {
         Founding year :${this.foundationYear},
         Number of staff:${this.numberOfStaff},
         owner:${this.owners[0].name}'
-
     `
     }};
      
