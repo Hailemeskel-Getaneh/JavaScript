@@ -10,5 +10,4 @@ myDiv.addEventListener('click', function(){
     this.style.backgroundColor = 'red';
 }, {once : true})
 
-
 //tip: you can use the this.innerHTML of the a given element of  html 
