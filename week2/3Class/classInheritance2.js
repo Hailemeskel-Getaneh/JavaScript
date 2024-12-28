@@ -10,6 +10,7 @@ class Course{
     }
 }
 
+
 //create a derived class from the parent class using the extends keyword .
 //so that it can inherit from the parent class
 

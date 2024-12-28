@@ -27,6 +27,7 @@ class Car extends Vehicle{
   }
 }
 
+
 const myCar = new Car('Honda', 'civic', 2024, 4);
 myCar.start()
 myCar.stop()
