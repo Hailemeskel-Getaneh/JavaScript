@@ -10,6 +10,7 @@ Donot use () to call the callback inside the other function just use the name of
 
 // callbacks
 
+
 function fetchData(callback){
     setTimeout(() =>{
       const  data = {name: 'Hailemesekel', ID:'DBU!501246'}
