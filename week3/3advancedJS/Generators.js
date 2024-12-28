@@ -19,6 +19,7 @@ let myGenerator = numberGenerator();
  }
 
  haile()
+ 
 /*
 function* defines a generator function.
 yield pauses the function and returns a value.

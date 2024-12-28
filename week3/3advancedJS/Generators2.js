@@ -10,6 +10,7 @@ function* asyncFunction(){
 
 }
 
+
  let gen = asyncFunction();
 
  

@@ -11,6 +11,7 @@ let myArray = [1, 2, 3];
 
 let myIterator = myArray[Symbol.iterator]();
 
+
 console.log(myIterator.next()) 
 console.log(myIterator.next())
 console.log(myIterator.next()) // here the output is {value:3 , done:true}
