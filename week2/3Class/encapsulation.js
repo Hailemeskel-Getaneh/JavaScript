@@ -29,8 +29,7 @@ class bankAccount{
             console.log('Your balance is insufficient')
         }
     }
-
-
+    
     //create a method for the  
     showBalance(){
         console.log('Your balance is :', this.#balance)
